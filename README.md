@@ -2,7 +2,9 @@
 커스텀 뮤직봇 메이커의 설정이 매우 어려우신 분들을 위한 초기 설정 도우미 도구입니다.  
   
 커스텀 뮤직봇 메이커 레포지토리에 있는 `README.md`를 꼭 읽어 주세요.  
-`README.md`에 있던 `Discord 봇 토큰`와 `Youtube OAuth API Key`가 필요합니다.
+`README.md`에 있던 `Discord 봇 토큰`와 `Youtube OAuth API Key`가 필요합니다.  
+  
+심각한 이슈가 아니라면 업데이트는 잘 안 할 것 같습니다.
 
 ## Installation
 1. 릴리즈를 다운로드 받거나 Git bash를 이용합니다.
