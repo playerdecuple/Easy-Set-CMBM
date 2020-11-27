@@ -6,7 +6,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "4.0.4"
 }
 group = "com.DecupleProject"
-version = "1.0-SNAPSHOT"
+version = "1.1-RELEASE"
 
 repositories {
     mavenCentral()
