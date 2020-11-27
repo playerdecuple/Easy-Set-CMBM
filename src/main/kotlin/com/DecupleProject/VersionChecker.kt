@@ -5,7 +5,7 @@ import com.google.gson.JsonObject
 import com.google.gson.JsonParser
 
 fun versionChecker(): String {
-    val versionInfo: String = getJsonByUrl("http://192.168.219.102:7777/custom-musicbot-maker")
+    val versionInfo: String = getJsonByUrl("http://www.developerdecuple.kro.kr:7777/custom-musicbot-maker")
 
     val jp = JsonParser()
     val info: JsonObject = jp.parse(versionInfo) as JsonObject
@@ -14,7 +14,7 @@ fun versionChecker(): String {
 }
 
 fun getDownloadUrl(): String {
-    val versionInfo: String = getJsonByUrl("http://192.168.219.102:7777/custom-musicbot-maker")
+    val versionInfo: String = getJsonByUrl("http://www.developerdecuple.kro.kr:7777/custom-musicbot-maker")
 
     val jp = JsonParser()
     val info: JsonObject = jp.parse(versionInfo) as JsonObject
